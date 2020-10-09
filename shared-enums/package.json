@@ -1,0 +1,6 @@
+{
+  "name": "@company/shared-enums",
+  "description": "Company Shared Enums",
+  "main": "./index.js",
+  "type": "module"
+}

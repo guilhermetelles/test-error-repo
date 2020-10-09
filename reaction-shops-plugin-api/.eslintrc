@@ -1,0 +1,21 @@
+{
+  "extends": ["airbnb", "plugin:prettier/recommended"],
+  "plugins": ["jest"],
+  "env": {
+    "jest/globals": true
+  },
+  "rules": {
+    "import/prefer-default-export": "off",
+    "import/no-absolute-path": "off",
+    "class-methods-use-this": "off",
+    "react/jsx-filename-extension": "off",
+    "react/forbid-prop-types": "off",
+    "no-underscore-dangle": "off",
+    "prettier/prettier": ["error"],
+    "import/no-extraneous-dependencies": "off",
+    "no-use-before-define": "off"
+  },
+  "globals": {
+    "Alerts": "readonly"
+  }
+}
